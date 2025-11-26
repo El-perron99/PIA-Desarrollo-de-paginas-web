@@ -5,6 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pia final</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CENTRAR CONTENIDO */
+        .centrado {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        /* ESTILO DE LA TABLA */
+        table {
+            margin: 0 auto; /* CENTRA LA TABLA */
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,7 +44,42 @@
 
     <main>
         <h1>Página de la Evidencia Desarrollo de Páginas Web Dinámicas - PIA</h1>
-        <p>.</p>
+
+        <!-- TABLA CENTRADA -->
+        <div class="centrado">
+            <table>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Nombre</th>
+                </tr>
+                <tr>
+                    <td>2212001</td>
+                    <td>BARREDA CALDERON AZUCENA</td>
+                </tr>
+                <tr>
+                    <td>2211983</td>
+                    <td>DE LA ROSA AGUILAR ANGEL FRANCISCO</td>
+                </tr>
+                <tr>
+                    <td>2212009</td>
+                    <td>MONTAÑO DUEÑAS PERLA RUBI</td>
+                </tr>
+                <tr>
+                    <td>2212010</td>
+                    <td>OVIEDO ALVARADO MARIANA NEFTALI</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- VIDEO CENTRADO -->
+        <div class="centrado">
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/JougRr9jY-M"
+                title="YouTube video player" frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </div>
+
     </main>
 
     <footer>
